@@ -16,8 +16,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/datepicker.css" rel="stylesheet" type='text/css'>
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <!--Custom-Theme-files-->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/magic-check.css" rel='stylesheet' type='text/css' />
         <!--/script-->
 <script src="js/modernizr.custom.js"></script>
 <script src="js/jquery-1.11.1.min.js"></script> 
@@ -52,7 +54,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
      <div class="container">
       <div class="header-top">
 	       	<div class="logo">
-                    <a href="index.html"><h1>Syn<span>Apps</span></h1> </a>
+                    <a href="index.html">
+                        <img src="images/synAppsLogo.jpg" alt="SynApps Home" width="151" height="106" border="0">
+                    </a>
+                    <!-- <a href="index.html"><h1>Syn<span>Apps</span></h1> </a> -->
 			 </div>	
 				    <div class="top-menu">
 					    <span class="menu"> </span>
@@ -110,7 +115,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 <div class="section-contact">
 	    <div class="container">
 			<h2 class="tittle">Brief Psychiatric Rating Scale</h2>
-		  	<form class="form-servey" role="form" novalidate="novalidate">
+		  	<form class="col-xs-12 form-servey" role="form" novalidate="novalidate">
 		  		<div class="form-inline" >
 		          	<div class="form-group">
 			          	<div class="form-group">
@@ -141,686 +146,692 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		        </div>
 				<!-- End of servey intro -->
 
-				<!-- First Block of Assessment Questions -->
-				<!-- Instructions -->		        
-				<p class="instructions">Rate items 1-14 on the basis of patienst's self-report during interview. Note items 7, 12, 13 are also rated on observed behavior during the interview. Mark "N/A" for sysmptoms not assesed.</p>
-				<!-- Questions -->
-				<div class="question-row form-horizontal" >
-          			<div class="form-group">
-          				<label class="question-row-num col-xs-1 control-label">1</label>
-            			<label class="question-row-label col-xs-3 control-label"> Somatic Concern</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio1" data-val-required="An answer to question 1 is required." type="radio" >N/A</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio1">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio1">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio1">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio1">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio1">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio1">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio1">7</label>
-                			<textarea class="form-control"  rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                <div class="servey-body">
+    				<!-- First Block of Assessment Questions -->
+    				<!-- Instructions -->		        
+    				<p class="instructions">Rate items 1-14 on the basis of patienst's self-report during interview.<br> <i>Note items 7, 12, 13 are also rated on observed behavior during the interview.</i><br> Mark "N/A" for sysmptoms not assesed.</p>
+    				<!-- Questions -->
+    				<div class="question-row form-horizontal" >
+              			<div class="form-group">
+              				<label class="question-row-num col-xs-1 control-label">1</label>
+                			<label class="question-row-label col-xs-3 control-label"> Somatic Concern</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio1" data-val-required="An answer to question 1 is required." type="radio" ><i></i> <span>N/A</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio1"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio1"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio1"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio1"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio1"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio1"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio1"><i></i> <span>7</span></label>
+                    			<textarea class="form-control"  rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">2</label>
+                			<label class="question-row-label col-xs-3 control-label"> Anxiety</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio2" data-val-required="An answer to question 2 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio2"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio2"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio2"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio2"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio2"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio2"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio2"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">3</label>
+                			<label class="question-row-label col-xs-3 control-label"> Depression</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio3" data-val-required="An answer to question 3 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio3"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio3"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio3"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio3"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio3"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio3"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio3"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">4</label>
+                			<label class="question-row-label col-xs-3 control-label"> Suicidality</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio4" data-val-required="An answer to question 4 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio4"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio4"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio4"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio4"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio4"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio4"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio4"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">5</label>
+                			<label class="question-row-label col-xs-3 control-label"> Guilt</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio5" data-val-required="An answer to question 5 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio5"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio5"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio5"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio5"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio5"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio5"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio5"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">6</label>
+                			<label class="question-row-label col-xs-3 control-label"> Hostility</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio6" data-val-required="An answer to question 6 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio6"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio6"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio6"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio6"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio6"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio6"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio6"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">7</label>
+                			<label class="question-row-label col-xs-3 control-label"> Elevated Mood</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio7" data-val-required="An answer to question 7 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio7"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio7"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio7"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio7"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio7"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio7"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio7"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">8</label>
+                			<label class="question-row-label col-xs-3 control-label"> Grandiosity</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio8" data-val-required="An answer to question 8 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio8"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio8"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio8"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio8"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio8"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio8"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio8"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">9</label>
+                			<label class="question-row-label col-xs-3 control-label"> Suspiciousness</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio9" data-val-required="An answer to question 9 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio9"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio9"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio9"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio9"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio9"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio9"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio9"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">10</label>
+                			<label class="question-row-label col-xs-3 control-label"> Hallucinations</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio10" data-val-required="An answer to question 10 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio10"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio10"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio10"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio10"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio10"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio10"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio10"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">11</label>
+                			<label class="question-row-label col-xs-3 control-label"> Unusual Thought Content</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio11" data-val-required="An answer to question 11 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio11"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio11"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio11"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio11"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio11"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio11"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio11"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">12</label>
+                			<label class="question-row-label col-xs-3 control-label"> Bizarre Behavior</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio12" data-val-required="An answer to question 12 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio12"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio12"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio12"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio12"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio12"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio12"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio12"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">13</label>
+                			<label class="question-row-label col-xs-3 control-label"> Self-neglect</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio13" data-val-required="An answer to question 13 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio13"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio13"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio13"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio13"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio13"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio13"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio13"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">14</label>
+                			<label class="question-row-label col-xs-3 control-label"> Disorientation</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio14" data-val-required="An answer to question 14 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio14"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio14"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio14"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio14"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio14"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio14"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio14"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
             			</div>
         			</div>
 
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">2</label>
-            			<label class="question-row-label col-xs-3 control-label"> Anxiety</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio2" data-val-required="An answer to question 2 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio2">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio2">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio2">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio2">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio2">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio2">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio2">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+    				<!-- Second Block of Assessment Questions -->
+    				<!-- Instructions -->
+    				<p class="instructions">Rate items 15-24 on the basis of observed behavior or speech of the patient during the interview.</p>
+    				<!-- Questions -->
+    				<div class="question-row form-horizontal" >
+              			<div class="form-group">
+              				<label class="question-row-num col-xs-1 control-label">15</label>
+                			<label class="question-row-label col-xs-3 control-label"> Conceptual Disorganization</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio15" data-val-required="An answer to question 15 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio15"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio15"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio15"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio15"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio15"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio15"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio15"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">16</label>
+                			<label class="question-row-label col-xs-3 control-label"> Blunted Affect</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio16" data-val-required="An answer to question 16 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio16"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio16"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio16"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio16"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio16"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio16"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio16"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">17</label>
+                			<label class="question-row-label col-xs-3 control-label"> Emotional Withdrawal</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio17" data-val-required="An answer to question 17 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio17"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio17"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio17"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio17"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio17"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio17"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio17"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">18</label>
+                			<label class="question-row-label col-xs-3 control-label"> Motor Retardation</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio18" data-val-required="An answer to question 18 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio18"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio18"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio18"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio18"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio18"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio18"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio18"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">19</label>
+                			<label class="question-row-label col-xs-3 control-label"> Tension</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio19" data-val-required="An answer to question 19 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio19"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio19"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio19"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio19"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio19"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio19"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio19"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">20</label>
+                			<label class="question-row-label col-xs-3 control-label"> Uncooperativeness</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio20" data-val-required="An answer to question 20 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio20"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio20"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio20"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio20"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio20"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio20"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio20"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">21</label>
+                			<label class="question-row-label col-xs-3 control-label"> Excitement</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio21" data-val-required="An answer to question 21 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio21"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio21"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio21"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio21"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio21"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio21"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio21"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">22</label>
+                			<label class="question-row-label col-xs-3 control-label"> Distractibility</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio22" data-val-required="An answer to question 22 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio22"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio22"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio22"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio22"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio22"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio22"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio22"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">23</label>
+                			<label class="question-row-label col-xs-3 control-label"> Motor Hyperactivity</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio23" data-val-required="An answer to question 23 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio23"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio23"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio23"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio23"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio23"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio23"><i></i> <span>6</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input type="radio" name="radio23"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
+            			</div>
+
+            			<div class="form-group">
+            				<label class="question-row-num col-xs-1 control-label">24</label>
+                			<label class="question-row-label col-xs-3 control-label"> Mannerisms and Posturing</label>
+                			<div class="form-inline">
+                    			<label class="radio-inline">
+                        			<input data-val="true" name="radio24" data-val-required="An answer to question 24 is required." type="radio" >
+                        			<i></i> <span>N/A</span>
+                        		</label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
+                    				<input type="radio" name="radio24"><i></i> <span>1</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
+                    				<input type="radio" name="radio24"><i></i> <span>2</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Mild">
+                    				<input type="radio" name="radio24"><i></i> <span>3</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
+                    				<input type="radio" name="radio24"><i></i> <span>4</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
+                    				<input type="radio" name="radio24"><i></i> <span>5</span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Severe">
+                    				<input type="radio" name="radio24"><i></i> <span><i></i> <span>6</span></span></label>
+                    			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
+                    				<input class="magic-radio" type="radio" name="radio24"><i></i> <span>7</span></label>
+                    			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                			</div>
             			</div>
         			</div>
 
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">3</label>
-            			<label class="question-row-label col-xs-3 control-label"> Depression</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio3" data-val-required="An answer to question 3 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio3">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio3">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio3">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio3">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio3">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio3">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio3">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
+        			<!-- Check Boxes! -->
+        			<div class="row">
+       					<div class="col-xs-6">
+        					<p class="instructions" for="chBox1">Sources of information :</label>
+                            <div class="check-box-group">
+            					<div class="checkbox">
+              						<label><input type="checkbox" value=""><i></i> <span>Patient</span></label>
+            					</div>
+            					<div class="checkbox">
+              						<label><input type="checkbox" value=""><i></i> <span>Parents/Relatives</span></label>
+            					</div>
+            					<div class="checkbox">
+              						<label><input type="checkbox" value=""><i></i> <span>Mental Health Professionals</span></label>
+            					</div>
+            					<div class="checkbox">
+              						<label><input type="checkbox" value=""><i></i> <span>Chart</span></label>
+            					</div>
+            					<div class="checkbox">
+              						<label><input type="checkbox" value=""><i></i> <span>Other (e.g., police report</span></label>
+            					</div>
+                            </div>
+        				</div>	
+        				
+    					<div class="col-xs-6">
+        					<p class="instructions" for="chBox2">Explain here if validity of assessment is questionable :</label>
+                            <div class="check-box-group">
+            					<div class="checkbox">
+              						<label><input type="checkbox" value=""><i></i> <span>Symptoms possibly substance-induced</span></label>
+            					</div>
+            					<div class="checkbox">
+              						<label><input type="checkbox" value=""><i></i> <span>Under reported due to lack of rapport</span></label>
+            					</div>
+            					<div class="checkbox">
+              						<label><input type="checkbox" value=""><i></i> <span>Patien uncooperative</span></label>
+            					</div>
+            					<div class="checkbox">
+              						<label><input type="checkbox" value=""><i></i> <span>Difficult to assess due to formal thought disorder</span></label>
+            					</div>
+            					<div class="checkbox">
+              						<label><input type="checkbox" value=""><i></i> <span>Other</span></label>
+            					</div>
+                            </div>
+        				</div>
         			</div>
+                    <br>
 
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">4</label>
-            			<label class="question-row-label col-xs-3 control-label"> Suicidality</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio4" data-val-required="An answer to question 4 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio4">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio4">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio4">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio4">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio4">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio4">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio4">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">5</label>
-            			<label class="question-row-label col-xs-3 control-label"> Guilt</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio5" data-val-required="An answer to question 5 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio5">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio5">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio5">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio5">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio5">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio5">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio5">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">6</label>
-            			<label class="question-row-label col-xs-3 control-label"> Hostility</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio6" data-val-required="An answer to question 6 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio6">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio6">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio6">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio6">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio6">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio6">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio6">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">7</label>
-            			<label class="question-row-label col-xs-3 control-label"> Elevated Mood</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio7" data-val-required="An answer to question 7 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio7">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio7">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio7">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio7">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio7">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio7">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio7">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">8</label>
-            			<label class="question-row-label col-xs-3 control-label"> Grandiosity</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio8" data-val-required="An answer to question 8 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio8">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio8">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio8">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio8">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio8">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio8">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio8">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">9</label>
-            			<label class="question-row-label col-xs-3 control-label"> Suspiciousness</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio9" data-val-required="An answer to question 9 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio9">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio9">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio9">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio9">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio9">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio9">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio9">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">10</label>
-            			<label class="question-row-label col-xs-3 control-label"> Hallucinations</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio10" data-val-required="An answer to question 10 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio10">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio10">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio10">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio10">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio10">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio10">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio10">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">11</label>
-            			<label class="question-row-label col-xs-3 control-label"> Unusual Thought Content</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio11" data-val-required="An answer to question 11 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio11">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio11">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio11">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio11">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio11">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio11">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio11">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">12</label>
-            			<label class="question-row-label col-xs-3 control-label"> Bizarre Behavior</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio12" data-val-required="An answer to question 12 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio12">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio12">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio12">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio12">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio12">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio12">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio12">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">13</label>
-            			<label class="question-row-label col-xs-3 control-label"> Self-neglect</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio13" data-val-required="An answer to question 13 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio13">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio13">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio13">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio13">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio13">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio13">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio13">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">14</label>
-            			<label class="question-row-label col-xs-3 control-label"> Disorientation</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio14" data-val-required="An answer to question 14 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio14">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio14">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio14">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio14">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio14">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio14">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio14">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-    			</div>
-
-				<!-- Second Block of Assessment Questions -->
-				<!-- Instructions -->
-				<span class="field-validation-valid help-block" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
-				<p class="instructions">Rate items 15-24 on the basis of observed behavior or speech of the patient during the interview.</p>
-				<span class="field-validation-valid help-block" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
-				<!-- Questions -->
-				<div class="question-row form-horizontal" >
-          			<div class="form-group">
-          				<label class="question-row-num col-xs-1 control-label">15</label>
-            			<label class="question-row-label col-xs-3 control-label"> Conceptual Disorganization</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio15" data-val-required="An answer to question 15 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio15">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio15">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio15">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio15">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio15">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio15">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio15">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">16</label>
-            			<label class="question-row-label col-xs-3 control-label"> Blunted Affect</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio16" data-val-required="An answer to question 16 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio16">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio16">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio16">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio16">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio16">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio16">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio16">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">17</label>
-            			<label class="question-row-label col-xs-3 control-label"> Emotional Withdrawal</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio17" data-val-required="An answer to question 17 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio17">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio17">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio17">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio17">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio17">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio17">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio17">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">18</label>
-            			<label class="question-row-label col-xs-3 control-label"> Motor Retardation</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio18" data-val-required="An answer to question 18 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio18">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio18">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio18">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio18">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio18">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio18">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio18">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">19</label>
-            			<label class="question-row-label col-xs-3 control-label"> Tension</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio19" data-val-required="An answer to question 19 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio19">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio19">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio19">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio19">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio19">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio19">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio19">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">20</label>
-            			<label class="question-row-label col-xs-3 control-label"> Uncooperativeness</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio20" data-val-required="An answer to question 20 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio20">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio20">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio20">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio20">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio20">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio20">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio20">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">21</label>
-            			<label class="question-row-label col-xs-3 control-label"> Excitement</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio21" data-val-required="An answer to question 21 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio21">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio21">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio21">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio21">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio21">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio21">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio21">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">22</label>
-            			<label class="question-row-label col-xs-3 control-label"> Distractibility</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio22" data-val-required="An answer to question 22 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio22">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio22">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio22">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio22">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio22">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio22">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio22">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">23</label>
-            			<label class="question-row-label col-xs-3 control-label"> Motor Hyperactivity</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio23" data-val-required="An answer to question 23 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio23">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio23">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio23">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio23">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio23">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio23">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio23">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-
-        			<div class="form-group">
-        				<label class="question-row-num col-xs-1 control-label">24</label>
-            			<label class="question-row-label col-xs-3 control-label"> Mannerisms and Posturing</label>
-            			<div class="form-inline">
-                			<label class="radio-inline">
-                    			<input data-val="true" name="radio24" data-val-required="An answer to question 24 is required." type="radio" >
-                    			N/A
-                    		</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Not Present">
-                				<input type="radio" name="radio24">1</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Very Mild">
-                				<input type="radio" name="radio24">2</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Mild">
-                				<input type="radio" name="radio24">3</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderate">
-                				<input type="radio" name="radio24">4</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Moderately Severe">
-                				<input type="radio" name="radio24">5</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Severe">
-                				<input type="radio" name="radio24">6</label>
-                			<label class="radio-inline" data-toggle="tooltip" title="Extremely Severy">
-                				<input type="radio" name="radio24">7</label>
-                			<textarea class="form-control" cols="20" rows="1" placeholder="example..." onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
-            			</div>
-        			</div>
-    			</div>
-    			<span class="field-validation-valid help-block" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
-
-    			<!-- Check Boxes! -->
-    			<div class="row">
-   					<div class="col-xs-6">
-    					<p class="instructions" for="chBox1">Sources of information :</label>
-    					<div class="checkbox">
-      						<label><input type="checkbox" value="">Patient</label>
-    					</div>
-    					<div class="checkbox">
-      						<label><input type="checkbox" value="">Parents/Relatives</label>
-    					</div>
-    					<div class="checkbox">
-      						<label><input type="checkbox" value="">Mental Health Professionals</label>
-    					</div>
-    					<div class="checkbox">
-      						<label><input type="checkbox" value="">Chart</label>
-    					</div>
-    					<div class="checkbox">
-      						<label><input type="checkbox" value="">Other (e.g., police report)</label>
-    					</div>
-    				</div>	
-    				
-					<div class="col-xs-6">
-    					<p class="instructions" for="chBox2">Explain here if validity of assessment is questionable :</label>
-    					<div class="checkbox">
-      						<label><input type="checkbox" value="">Symptoms possibly substance-induced</label>
-    					</div>
-    					<div class="checkbox">
-      						<label><input type="checkbox" value="">Under reported due to lack of rapport</label>
-    					</div>
-    					<div class="checkbox">
-      						<label><input type="checkbox" value="">Patien uncooperative</label>
-    					</div>
-    					<div class="checkbox">
-      						<label><input type="checkbox" value="">Difficult to assess due to formal thought disorder</label>
-    					</div>
-    					<div class="checkbox">
-      						<label><input type="checkbox" value="">Other</label>
-    					</div>
-    				</div>
-    			</div>
+                </div>
+                <!-- //servey-body -->
 
     			<!-- Servey Footer -->
-    			<div class="form-horizontal">
+    			<div class="form-horizontal servey-footer">
     				<p class="your-para" for="sel1">Confidence in Assessment :</label>
   					<select class="form-control" id="sel1">
   						<option></option>
@@ -830,8 +841,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<option>4 - Quite Confident</option>
 						<option>5 - Very Confident</option>
 					</select>
+                    <br>
 					<p class="your-para">Record Information :</p>
-					<textarea cols="77" rows="6" onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+					<textarea class="form-control" cols="77" rows="6" onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
 					<div class="send">
 						<input type="submit" value="Submit" >
 					</div>

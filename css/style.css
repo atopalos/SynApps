@@ -1153,7 +1153,7 @@ i.link {
 }
 /*--blog--*/
 .header.two {
-    background: url(../images/banner.jpg)no-repeat 0px -239px;
+    background: url(../images/Synapses.png)no-repeat 0px -239px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -1711,9 +1711,6 @@ position:relative;
 .contact-main {
     margin-top: 2em;
 }
-.form-servey {
-    margin-top: 2em; 
-}
 .contact-form {
 	margin-bottom: 3.5em;
     margin-top: 1em;
@@ -1744,8 +1741,10 @@ p.your-para {
 }
 
 
-
-
+/*form servey*/
+.form-servey {
+    margin: 2em 0 0 0; 
+}
 .form-servey input[type="text"], .form-servey textarea {
     width: 100%;
     padding: 0.8em;
@@ -1759,27 +1758,57 @@ p.your-para {
     -o-border-radius: 0.3em;
     -moz-border-radius: 0.3em;
 }
+.form-servey input[type="text"]:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
 .form-servey textarea {
     resize: none;
 }
 .question-row {
-    margin: 1em 0 0 2em 
+    margin: 2em 4em 0 0;
 }
-.question-row textarea {
-    resize: vertical;
+.form-inline input[type="text"] {
+  width: 100%
+}
+.form-inline textarea {
+    resize: horizontal;
+    min-height: 3em;
+    /*min-width: 5em;*/
     width: 100%;
-    margin-left:1em;
+    margin: 0 0.8em 0 1em;
+    padding: 0.8em;
 }
 .form-inline label {
-    padding-bottom: 1.2em;
+    padding-bottom: 2.2em;
 }
 .question-row-num, .question-row-label {
     margin-right:0em;
     max-width: 1em;
+    margin: 2em 0 0 0 
 }
 .question-row-label {
     max-width: 16em;
     margin-right: 0.5em;
+}
+.instructions {
+    margin: 1em 0s 1em 0;
+    padding-top: 1em; 
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+.row .instructions {
+  text-align: left;
+}
+/*.check-box-group {
+    margin: 0 0 0 0;
+    align-self: center;
+}*/
+.servey-footer {
+    margin: 0 4.5em 0 0;
 }
 
 
@@ -2202,7 +2231,7 @@ i.g-1:hover{
 	}
 	.header.two {
 		min-height: 181px;
-		background: url(../images/banner.jpg)no-repeat 0px -152px;
+		background: url(../images/Synapses.png)no-repeat 0px -152px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
@@ -2344,7 +2373,7 @@ i.g-1:hover{
 	}
 	.header.two {
 		min-height: 162px;
-		background: url(../images/banner.jpg)no-repeat 0px -152px;
+		background: url(../images/Synapses.png)no-repeat 0px -152px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
@@ -2494,7 +2523,7 @@ i.g-1:hover{
 		min-height: 382px;
 	}
 	.header.two {
-		background: url(../images/banner.jpg)no-repeat 0px 0px;
+		background: url(../images/Synapses.png)no-repeat 0px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
@@ -2591,7 +2620,7 @@ i.g-1:hover{
 		margin: 6.7em 0 0 0;
 	}
 	.header.two {
-		background: url(../images/banner.jpg)no-repeat 0px 0px;
+		background: url(../images/Synapses.png)no-repeat 0px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
@@ -2758,6 +2787,10 @@ i.g-1:hover{
 		font-size: 1.8em;
 		margin-top: 30px;
 	}
+  .logo a h1 {
+    font-size: 1.8em;
+    margin-top: 30px;
+  }
 	.banner-info {
 		margin: 9% auto 0;
 		width: 71%;
@@ -2768,7 +2801,7 @@ i.g-1:hover{
 		width: 92%;
 	}
 	.header.two {
-		background: url(../images/banner.jpg)no-repeat 0px 0px;
+		background: url(../images/Synapses.png)no-repeat 0px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
