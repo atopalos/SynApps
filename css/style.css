@@ -163,7 +163,8 @@ i.arrow {
 	-ms-transition:0.5s all;
   }
 #loginpop a span:hover i.arrow{
-  color:#fff;
+  color:#47889E;
+  /*color:#fff;*/
   }
 #loginpop a{
 	text-decoration:none;
@@ -191,9 +192,11 @@ border: 1px solid #029b58;
   font-family: 'Open Sans', sans-serif;
   }
  #loginpop a span:hover{
-	background:#222;
+  /*background:#fff;*/
+    background:#decba5;
+	 /*background:#222;*/
 	 border: 1px solid #222;
-	 color:#fff;
+	 color:#47889E;
  }
 /* Login Button */
 #loginButton { 
