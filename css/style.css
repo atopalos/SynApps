@@ -264,7 +264,8 @@ fieldset#body {
 #loginForm #login {
   width: auto;
   float: left;
-  background:#019c58;
+  background:#47889E;
+  /*background:#019c58;*/
   color: #fff;
   font-size: 0.8725em;
   padding: 7px 20px;
@@ -716,7 +717,7 @@ span.circles-text {
     color: #fff;
 }
 .price-top {
-    background: #019C58;
+    background: #47889E;
     padding:2em;
     border-radius:0.4em 0.4em 0em 0em;
 	-webkit-border-radius:0.4em 0.4em 0em 0em;
@@ -746,7 +747,7 @@ a.button {
    font-size:.9em;
     text-transform: uppercase;
     padding:.6em 1em;
-    background:#019c58;
+    background:#47889E;
     color: #fff;
     display:block;
     width:43%;
@@ -868,7 +869,7 @@ h3.tittle.client {
 .team-left {
 	margin: 3em 0 0 0;
 }
-.top-team{
+.top-team{login-pop
 	margin:0;
 }
 .team-top  h6{
