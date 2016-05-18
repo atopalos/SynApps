@@ -1,0 +1,357 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"qu",
+				"question-row"
+			],
+			[
+				"di",
+				"div	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 24236,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dashboard.html",
+			"settings":
+			{
+				"buffer_size": 8185,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/menu_jquery.js",
+			"settings":
+			{
+				"buffer_size": 1165,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/atopalou/Documents/GitHub/SynApps",
+		"/C/Users/atopalou/Documents/GitHub/SynApps/js"
+	],
+	"file_history":
+	[
+		"/C/Users/atopalou/Documents/SynApps/web/web/css/style.css",
+		"/C/Users/atopalou/Documents/SynApps/web/web/testForm_2.html",
+		"/C/Users/atopalou/Documents/SynApps/web/web/testForm.html",
+		"/C/Users/atopalou/Documents/SynApps/web/web/index.html",
+		"/C/Users/topis/Documents/SynApps/web/web/css/datepicker.css",
+		"/C/Users/topis/Documents/SynApps/web/web/js/jquery-1.9.1.min.js",
+		"/C/Users/topis/Documents/SynApps/web/web/js/bootstrap-datepicker.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"question-row-label col-xs-2 control-label\"",
+			"\"col-xs-1 control-label\"",
+			"\"col-xs-3 control-label\"",
+			"\"col-xs-1 control-label\"",
+			"form-inline {\n    padding-bottom: 0.8em; \n}",
+			"padding-left: 2em;",
+			"contact-grid",
+			"contact-main",
+			"\"></",
+			"radio14",
+			"<input type=\"radio\">",
+			"optradio",
+			"container",
+			"\n\n						<form class=\"form-horizontal\" role=\"form\">\n							<div class=\"form-group\">\n							<p class=\"your-para\">Patient Name / ID # :</p>\n							<input type=\"text\" value=\"\" onfocus=\"this.value='';\" onblur=\"if (this.value == '') {this.value ='';}\">\n							</div>\n							<p class=\"your-para\">Date :</p>\n			                <input  type=\"text\" placeholder=\"click to show datepicker\"  id=\"datepickerInput\">\n							<p class=\"your-para\">Rater :</p>\n							<input type=\"text\" value=\"logged user name\" onfocus=\"this.value='';\" onblur=\"if (this.value == '') {this.value ='';}\">\n							<p class=\"your-para\">Hospital Location :</p>\n							<input type=\"text\" value=\"logged location\" onfocus=\"this.value='';\" onblur=\"if (this.value == '') {this.value ='';}\">\n							<p class=\"your-para\">Period of Assesment :</p>\n							<input type=\"text\" value=\"\" onfocus=\"this.value='';\" onblur=\"if (this.value == '') {this.value ='';}\">\n							<div class=\"form-group\">\n								<p class=\"radio inline control-label\">Some label</p>\n								<div class=\"controls\">\n	            					<label class=\"radio inline\"><input type=\"radio\" value=\"1\"/>First</label>\n	            					<label class=\"radio inline\"><input type=\"radio\" value=\"2\"/>Second</label>\n	        					</div>\n        					</div>\n\n        				</form>",
+			"section-contact",
+			"contact-main",
+			"col-md-6 contact-grid",
+			"\">\n",
+			"synAppsLogo_small"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"question-row-label col-xs-3 control-label\"",
+			"\"question-row-num col-xs-1 control-label\"",
+			"\"question-row-label col-xs-2 control-label\"",
+			"radio10",
+			"radio9",
+			"radio8",
+			"radio7",
+			"radio6",
+			"radio5",
+			"radio4",
+			"radio3",
+			"radio2",
+			"radio1",
+			"radio11",
+			"radio12",
+			"<input type=\"radio\" name=\"radio14\">",
+			"radio24"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3733,
+								3733
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 405.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dashboard.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/menu_jquery.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1165,
+								1165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SynApps.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
