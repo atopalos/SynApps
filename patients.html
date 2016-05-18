@@ -1,0 +1,325 @@
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>SynApps | My Patients</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Merchantry Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/datepicker.css" rel="stylesheet" type='text/css'>
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<!--Custom-Theme-files-->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/magic-check.css" rel='stylesheet' type='text/css' />
+<!--/script-->
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<!-- Load jQuery and bootstrap datepicker scripts -->
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script type="text/javascript">
+    // When the document is ready
+    $(document).ready(function () {
+        $('#datepickerInput').datepicker({
+            format: "dd/mm/yyyy"
+        });  
+    });
+</script>
+		<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<!--start-home-->
+   <div class="header two" id="home">
+     <div class="container">
+      <div class="header-top">
+	       	<div class="logo">
+                    <a href="index.html">
+                        <img src="images/SynappsLogo_transparent_b.png" alt="SynApps Home" width="170" height="113" border="0">
+                    </a>
+			 </div>	
+				    <div class="top-menu">
+					    <span class="menu"> </span>
+							<ul>
+								<!-- <li><a href="index.html"><span data-hover="HOME">Home</span></a><label> </label></li>
+								<li><a href="about.html"> <span data-hover="ABOUT">About</span></a><label> </label></li>
+								<li><a href="index.html"><span data-hover="SERVICES">Services</span></a><label> </label></li>-->
+								<li><a href="dashboard.html"><span data-hover="DASHBOARD">Dashboard</span></a><label> </label></li>
+								<li><a class="active" href="patients.html"><span data-hover="Patients">Patients</span></a><label> </label></li>
+								<li><a href="questionnaireLogged.html"><span data-hover="QUESTIONNAIRES">Questionnaires</span></a><label> </label></li> 
+							</ul>
+
+						</div>
+						<div class="login-pop">
+							<div id="loginpop"><a href="index.html" id="loginButton"><span>Logout <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a>
+							</div>
+						</div>
+
+                <!-- script-for-menu -->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+
+				<div class="clearfix"></div>
+					<!--End-top-nav-script-->
+			 </div>
+		</div>
+ </div>
+  <!--//end-banner-->
+<!--/contact-->
+	 <div class="section-contact">
+	    <div class="container">
+			      <h2 class="tittle">My Patients</h2>
+				<div class="contact-main">
+
+					<div class="col-md-5 contact-in">
+						<div id="OrderPackages">
+						    <table id="tableSearchResults" class="table table-hover  table-striped table-condensed">
+						        <thead>
+						            <tr>
+						                <th>Last Name</th>
+						                <th>First Name</th>
+						                <th></th>
+						            </tr>
+						        </thead>
+						        <tbody>
+						            <tr id="patient1" class="accordion-toggle" data-toggle="collapse" data-parent="#patients-table" data-target=".patientDetails1">
+						                <td>Smith</td>
+						                <td>John</td>
+						                <td><i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>
+
+						                </td>
+						            </tr>
+						            <tr>
+						                <td colspan="3" class="hiddenRow">
+						                    <div class="accordion-body collapse patientDetails1" id="accordion1">
+						                        <table>
+						                            <tr>
+						                                <td>13/09/1972</td>
+						                            </tr>
+						                            <tr>
+						                                <td>Rue de la Servette, 22</td>
+						                            </tr>
+						                            <tr>
+						                                <td>1203, Geneva</td>
+						                            </tr>
+						                            <tr>
+						                                <td>john.smith@gmail.com</td>
+						                            </tr>
+						                            <tr>
+						                                <td>+41221234567</td>
+						                            </tr>
+						                            <tr>
+						                                <td>This is a small description about John Smith my very first and beloved patient who volunteered to be part of this site and hence I have added him to my system as a patient.</td>
+						                            </tr>
+						                        </table>
+						                    </div>
+						                </td>
+						            </tr>
+						            <tr id="patient2" class="accordion-toggle" data-toggle="collapse" data-parent="#OrderPackages" data-target=".patientDetails2">
+						                <td>Chicken</td>
+						                <td>Joe</td>
+						                <td><i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>
+
+						                </td>
+						            </tr>
+						            <tr>
+						                <td colspan="3" class="hiddenRow">
+						                    <div class="accordion-body collapse patientDetails2" id="accordion2">
+						                        <table>
+						                            <tr>
+						                                <td>22/12/1982</td>
+						                            </tr>
+						                            <tr>
+						                                <td>Rue de Meyrin, 22</td>
+						                            </tr>
+						                            <tr>
+						                                <td>1203, Geneva</td>
+						                            </tr>
+						                            <tr>
+						                                <td>chicken.joe@gmail.com</td>
+						                            </tr>
+						                            <tr>
+						                                <td>+41227654321</td>
+						                            </tr>
+						                            <tr>
+						                                <td>This is a small description about Chicken Joe, my beloved character from Surf's Up. There's no description capable of describing Chicken Joe, so just go ahead and see the movie to understand what I am talking about...</td>
+						                            </tr>
+						                        </table>
+						                    </div>
+						                </td>
+						            </tr>
+						            <tr></tr>
+						        </tbody>
+						    </table>
+						</div>
+					</div>
+					<!-- Up/down-glyphicon-script-->
+					<script>
+						$('#accordion1').on('shown.bs.collapse', function () {
+    						$("#patient1 i.indicator").removeClass("glyphicon-chevron-up").addClass("glyphicon-chevron-down");
+						});
+						$('#accordion1').on('hidden.bs.collapse', function () {
+						    $("#patient1 i.indicator").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
+						});
+
+						$('#accordion2').on('shown.bs.collapse', function () {
+						    $("#patient2 i.indicator").removeClass("glyphicon-chevron-up").addClass("glyphicon-chevron-down");
+						});
+						$('#accordion2').on('hidden.bs.collapse', function () {
+						    $("#patient2 i.indicator").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
+						});
+					</script>
+					<!--End-up/down-glyphicon-script-->
+
+					<div class="col-md-6 contact-grid">
+						<form class="col-xs-12" role="form">
+							<div class="form-group">
+								<div class="form-group col-xs-12">
+									<!-- <p class="your-para">Last Name :</p> -->
+									<input type="text" placeholder="Last Name" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+								</div>
+								<div class="form-group col-xs-12">
+									<!-- <p class="your-para">First Name :</p> -->
+									<input type="text" placeholder="First Name" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+								</div>
+								<div class="form-group col-xs-12">
+									<div class=" right-inner-addon">
+										<!-- <p class="your-para">Date Of Birth:</p> -->
+		                            	<i class="glyphicon glyphicon-calendar form-control-feedback"></i>
+					                	<input  type="text" placeholder="Date Of Birth" id="datepickerInput">
+					            	</div>
+				            	</div>
+								<div class="form-group col-xs-9">
+									<!-- <p class="your-para">Address :</p> -->
+									<input type="text" placeholder="Address" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+								</div>
+								<div class="form-group col-xs-3">
+									<!-- <p class="your-para">Number :</p> -->
+									<input type="text" placeholder="Number" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+								</div>
+								<div class="form-group col-xs-4">
+									<!-- <p class="your-para">Postal Code :</p> -->
+									<input type="text" placeholder="Postal Code" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+								</div>
+								<div class="form-group col-xs-8">
+									<!-- <p class="your-para">City :</p> -->
+									<input type="text" placeholder="City" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+								</div>
+								<div class="form-group col-xs-12">
+									<!-- <p class="your-para">e-mail :</p> -->
+									<input type="text" placeholder="e-mail" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+								</div>
+								<div class="form-group col-xs-12">
+									<!-- <p class="your-para">Telephone :</p> -->
+									<input type="text" placeholder="Telephone" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+								</div>
+								<div class="form-group col-xs-12">
+									<!-- <p class="your-para">Details :</p> -->
+									<textarea cols="77" placeholder="Details" rows="6" onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+								</div>
+								<div class="form-group col-xs-12">
+									<div class="send">
+										<input type="submit" value="Add Patient" >
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+						<div class="clearfix"> </div>
+			      </div>
+	       </div>
+     </div>
+<!--//contact-->
+
+<!-- footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-3 footer-left">
+					<h4>Address</h4>
+						<address>
+							Innovation Park Geneva<br>
+							Avenue de Sécheron 15,<br>
+							1202 Genève<br>
+							<abbr title="Phone">P :</abbr> +41 22 456 7890
+						</address>
+				</div>
+				<div class="col-md-6 footer-middle">
+					<h4>Contact</h4>
+					<form>
+						<div class="ft-lt">
+							<input type="text" value="First Name" placeholder="" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'First Name';}">	
+							<input type="text" value="Last Name" placeholder="" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Last Name';}">				
+							<input type="text" value="Email Address" placeholder="" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Email Address';}">
+						</div>
+						<div class="ft-rgt">
+							<textarea placeholder="" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>	
+							<input type="submit" value="Submit">
+						</div>
+					</form>
+				</div>
+				
+					<div class="col-md-3 footer-left">
+						<h4>Follow Us</h4>
+							<div class="soci">
+									<a href="#"><i class="f-1"> </i></a>
+									<a href="#"><i class="t-1"> </i></a>
+									<a href="#"><i class="g-1"> </i></a>
+								</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+					<div class="footer-text">
+						<p>© 2016 SynApps. All Rights Reserved | Design base by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+					</div>
+				</div>
+			</div>
+			<!-- footer-->
+				<!--start-smoth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!--JS-->
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+
+<!--//JS-->
+
+</body>
+</html>

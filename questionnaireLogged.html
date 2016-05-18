@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>SynApps | Questionnaire</title>
+<title>SynApps | My Questionnaire</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Merchantry Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -61,41 +61,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 </div>	
 				    <div class="top-menu">
 					    <span class="menu"> </span>
-							<ul>
-								<li><a href="index.html"><span data-hover="HOME">Home</span></a><label> </label></li>
-								<li><a href="about.html"> <span data-hover="ABOUT">About</span></a><label> </label></li>
-								<li><a href="index.html"><span data-hover="SERVICES">Services</span></a><label> </label></li>
-								<li><a href="index.html"><span data-hover="PORTFOLIO">Portfolio</span></a><label> </label></li>
-								<li><a class="active" href="questionnaire.html"><span data-hover="QUESTIONNAIRES">Questionnaires</span></a><label> </label></li>
-								<li><a href="contact.html"><span data-hover="CONTACT">Contact</span></a><label> </label></li>
-				
-							</ul>
+                            <ul>
+                                <!-- <li><a href="index.html"><span data-hover="HOME">Home</span></a><label> </label></li>
+                                <li><a href="about.html"> <span data-hover="ABOUT">About</span></a><label> </label></li>
+                                <li><a href="index.html"><span data-hover="SERVICES">Services</span></a><label> </label></li>-->
+                                <li><a href="dashboard.html"><span data-hover="DASHBOARD">Dashboard</span></a><label> </label></li>
+                                <li><a href="patients.html"><span data-hover="Patients">Patients</span></a><label> </label></li>
+                                <li><a class="active" href="questionnaireLogged.html"><span data-hover="QUESTIONNAIRES">Questionnaires</span></a><label> </label></li> 
+                            </ul>
 
-						</div>
-						<div class="login-pop">
-							<div id="loginpop"><a href="#" id="loginButton"><span>Login <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a>
-									<div id="loginBox">                
-										<!-- Re-direct to dashboard.html always for this mockup-->                
-                                        <form id="loginForm" action="dashboard.html">
-												<fieldset id="body">
-													<fieldset>
-														  <label for="email">Email Address</label>
-														  <input type="text" name="email" id="email">
-													</fieldset>
-													<fieldset>
-															<label for="password">Password</label>
-															<input type="password" name="password" id="password">
-													 </fieldset>
-													<input type="submit" id="login" value="Sign in">
-													<label for="checkbox"><input type="checkbox" id="checkbox"> <i>Remember me</i></label>
-												</fieldset>
-											<span><a href="#">Forgot your password?</a></span>
-									 </form>
-								</div>
-							</div>
-
-						</div>
-						<script src="js/menu_jquery.js"></script>
+                        </div>
+                        <div class="login-pop">
+                            <div id="loginpop"><a href="index.html" id="loginButton"><span>Logout <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a>
+                            </div>
+                        </div>
 
                 <!-- script-for-menu -->
 								<script>
@@ -116,7 +95,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 <div class="section-contact">
 	    <div class="container">
 			<h2 class="tittle">Brief Psychiatric Rating Scale</h2>
-		  	<form class="col-xs-12 form-servey" role="form" novalidate="novalidate">
+		  	<form class="col-xs-12 form-servey" role="form" novalidate="novalidate" action="dashboard.html">
 		  		<div class="form-inline" >
 		          	<div class="form-group">
 			          	<div class="form-group">
@@ -846,7 +825,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<p class="your-para">Record Information :</p>
 					<textarea class="form-control" cols="77" rows="6" onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
 					<div class="send">
-						<input type="submit" value="Submit" >
+						<input type="submit" value="Submit">
 					</div>
 				</div>
 
